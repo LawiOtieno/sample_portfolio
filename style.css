@@ -2,6 +2,9 @@
     padding-right: 20px;
     padding-left: 20px;
 }
+a{
+    text-decoration: none;
+}
 nav{
     background-color: #546064;
     height: 50px;
@@ -56,12 +59,8 @@ h2{
 footer{
     background-color: #546064;
     height: 50px;
-    width: 100%; 
-    position: fixed;
+    width: 100%;
     text-align: center;
     padding-top: 8px;
     color: white;
-}
-a{
-    text-decoration: none;
 }
