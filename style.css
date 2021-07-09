@@ -1,6 +1,6 @@
-*{
-    padding-right: 10px;
-    padding-left: 10px;
+.styleCommon{
+    padding-right: 20px;
+    padding-left: 20px;
 }
 nav{
     background-color: #546064;
@@ -11,6 +11,7 @@ nav{
 .logo{
     color: white;
     font-family: 'Calistoga', cursive;
+    padding-left: 30px;
 }
 nav ul{
     float: right;
@@ -29,12 +30,12 @@ nav ul li a{
     border-radius: 3px;
 }
 .sec_one{
-    padding-top: 50px;
+    padding-top: 55px;
 }
 h2{
     font-family: 'Calistoga', cursive;
     text-align: center;
-    background-color: #baeaf8;
+    background-color: #31b0d6;
     border-radius: 30px;
 }
 .profile{
@@ -58,4 +59,9 @@ footer{
     width: 100%; 
     position: fixed;
     text-align: center;
+    padding-top: 8px;
+    color: white;
+}
+a{
+    text-decoration: none;
 }
