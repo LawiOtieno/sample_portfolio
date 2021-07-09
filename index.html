@@ -15,10 +15,6 @@
 </head>
 <body>
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
         <label class="logo" for=""><a href="index.html"><h1>Lawi Otieno</h1></a></label>
         <ul>
             <li><a class="navterxt" href="#home">Home</a></li>
@@ -31,11 +27,15 @@
     <!--Profile Section-->
     <section class="sec_one" id="home">
         <h2>My Profile</h2>
-        <div class="my-photo">
-            <img src="./Assets/Lawi.jpg" alt="Lawrence photo">
-        </div>
-        <div class="text-center"> <!-- Boostrap Styling used -->
-            <h3>Name: Lawrence Otieno</h3>
+        <div class="profile">
+            <div class="profText">
+                <h3>Lawrence</h3>
+                <h3>Otieno</h3>
+                <p>Freelance Fullstack Developer & Product Designer based in NAirobi, Kenya.</p>
+            </div>
+            <div class="my-photo">
+                <img src="./Assets/Lawi.jpg" alt="Lawrence photo">
+            </div>
         </div>
     </section>
 
@@ -44,7 +44,7 @@
     <section id="projects">
         <h2>List Of My Projects</h2>
         <div>
-            <table class="table"> <!-- Boostrap Styling used -->
+            <table class="table table-success table-striped"> <!-- Boostrap Styling used -->
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -70,5 +70,8 @@
     <section id="about-me">
         <h2>About Me</h2>
     </section>
+    <footer>
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="index.html">Lawi Portfolio</a>, All Right Reserved</p>
+    </footer>
 </body>
 </html>

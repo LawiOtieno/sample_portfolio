@@ -1,5 +1,9 @@
+*{
+    padding-right: 10px;
+    padding-left: 10px;
+}
 nav{
-    background-color: #45b7da;
+    background-color: #546064;
     height: 50px;
     width: 100%; 
     position: fixed;
@@ -33,10 +37,25 @@ h2{
     background-color: #baeaf8;
     border-radius: 30px;
 }
+.profile{
+    display: flex;
+}
+.profText{
+    align-items: center;
+    width: 50vw;
+    padding-top: 50px;
+}
 .my-photo{
     text-align: center;
 }
 .my-photo img{
     border-radius: 50%;
     height: 50vh;
+}
+footer{
+    background-color: #546064;
+    height: 50px;
+    width: 100%; 
+    position: fixed;
+    text-align: center;
 }
