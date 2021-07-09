@@ -33,3 +33,10 @@ h2{
     background-color: #baeaf8;
     border-radius: 30px;
 }
+.my-photo{
+    text-align: center;
+}
+.my-photo img{
+    border-radius: 50%;
+    height: 50vh;
+}
