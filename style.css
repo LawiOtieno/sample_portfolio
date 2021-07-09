@@ -1,6 +1,42 @@
 nav{
-    background: black;
+    background-color: #45b7da;
     height: 50px;
     width: 100%; 
     position: fixed;
+}
+.logo{
+    color: white;
+    font-family: 'Calistoga', cursive;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.sec_one{
+    padding-top: 50px;
+}
+h2{
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+    background-color: #baeaf8;
+    border-radius: 30px;
+}
+.my-photo{
+    text-align: center;
+}
+.my-photo img{
+    border-radius: 50%;
+    height: 50vh;
 }
