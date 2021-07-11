@@ -45,7 +45,7 @@ h2{
     background-color: #31b0d6;
     border-radius: 30px;
 }
-.profile{
+.profile, .codeInt{
     display: flex;
 }
 .profText{
@@ -65,6 +65,9 @@ h2{
 .my-photo img{
     border-radius: 50%;
     height: 50vh;
+}
+h6{
+    color: blue;
 }
 footer{
     background-color: #546064;
