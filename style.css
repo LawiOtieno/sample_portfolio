@@ -69,6 +69,10 @@ h2{
 h6{
     color: blue;
 }
+#borderA{
+    margin: 5px;
+    padding: 10px;
+}
 footer{
     background-color: #546064;
     height: 50px;
