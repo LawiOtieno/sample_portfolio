@@ -1,7 +1,7 @@
 # LAWRENCE PORTFOLIO
 This is my Portfolio Landing Page project. It was developed by me (Lawrence Otieno).
 
-## DESCRIPTION
+## Description
 This Portfolio Project is developed to provide insights about me to portential employers and hiring individuals/organizations.
 
 
@@ -9,11 +9,17 @@ This Portfolio Project is developed to provide insights about me to portential e
     Common Styles & Theme Used
 </p>
 
-## SUPPORT AND CONTACT DETAILS
+## Technology & Programming Languages Used
+This website was developed using HTML, CSS and JS programming languages. Coding was done on Visual Studio editor.
+* HTML: Used to develop the whole website.
+* CSS: Used to style the website to be appealing and stand-out.
+* Bootstrap 5: Used for styling.
+
+## Support, Feedback & Contact Details
 For any Suppoert or Feedback, fill free to contact the me through email at lawifirst@gmail.com or visit: [Lawi Otieno Github](https://github.com/LawiOtieno).
 We are open for any recommendation and update suggestions.
 
-## LICENSE
+## License
 [MIT License](https://choosealicense.com/licenses/mit/).
 
 Copyright (c) [2021] [Lawrence Otieno]
