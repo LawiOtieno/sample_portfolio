@@ -16,7 +16,7 @@ nav{
     position: fixed;
 }
 .logo{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Calistoga', cursive;
     padding-left: 30px;
 }

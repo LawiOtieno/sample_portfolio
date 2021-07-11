@@ -9,6 +9,16 @@ This Portfolio Project is developed to provide insights about me to portential e
     Common Styles & Theme Used
 </p>
 
+* Nav bar and Footer: Same background & Color; #546064 and rgb(255, 255, 255
+* Body Background: Color white.
+* Link colors: Yellow.
+* Link hover color: Hotpink.
+
+## Installation Requirements
+* Hosting Site like Github.
+* Browser like Google Chrome.
+* Good internet connectivity.
+
 ## Technology & Programming Languages Used
 This website was developed using HTML, CSS and JS programming languages. Coding was done on Visual Studio editor.
 * HTML: Used to develop the whole website.
