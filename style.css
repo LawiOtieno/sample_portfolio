@@ -4,6 +4,10 @@
 }
 a{
     text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: hotpink;
 }
 nav{
     background-color: #546064;
@@ -48,6 +52,12 @@ h2{
     align-items: center;
     width: 50vw;
     padding-top: 50px;
+}
+#mName{
+    font-size: 300%;
+}
+#mAbout{
+    font-size: 150%;
 }
 .my-photo{
     text-align: center;
