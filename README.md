@@ -9,6 +9,10 @@ This Portfolio Project is developed to provide insights about me to portential e
     Common Styles & Theme Used
 </p>
 
+## SUPPORT AND CONTACT DETAILS
+For any Suppoert or Feedback, fill free to contact the me through email at lawifirst@gmail.com or visit: [Lawi Otieno Github](https://github.com/LawiOtieno).
+We are open for any recommendation and update suggestions.
+
 ## LICENSE
 [MIT License](https://choosealicense.com/licenses/mit/).
 
