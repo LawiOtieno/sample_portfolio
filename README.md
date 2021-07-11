@@ -26,8 +26,12 @@ This website was developed using HTML, CSS and JS programming languages. Coding 
 * Bootstrap 5: Used for styling.
 
 ## Support, Feedback & Contact Details
-For any Suppoert or Feedback, fill free to contact the me through email at lawifirst@gmail.com or visit: [Lawi Otieno Github](https://github.com/LawiOtieno).
-We are open for any recommendation and update suggestions.
+For any Suppoert or Feedback, fill free to contact the me through: 
+* Email at lawifirst@gmail.com 
+* Phone on +254708581688
+* Website visit: [Lawi Otieno Github](https://github.com/LawiOtieno).
+
+<p>I am open for any collaboration, recommendation and update suggestions.</p>
 
 ## License
 [MIT License](https://choosealicense.com/licenses/mit/).
