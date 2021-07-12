@@ -1,6 +1,6 @@
 .styleCommon{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 a{
     text-decoration: none;
@@ -38,6 +38,7 @@ nav ul li a{
 }
 .sec_one{
     padding-top: 55px;
+    padding-bottom: 50px;
 }
 h2{
     font-family: 'Calistoga', cursive;
