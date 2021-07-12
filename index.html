@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawi Portfolio</title>
     <link rel="icon" href="./Assets/Lawi_Fav.png" sizes="16x16 32x32" type="image/png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> <!-- Font Awesome -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -15,11 +16,12 @@
 </head>
 <body>
     <nav>
-        <label class="logo" for=""><a href="index.html"><h1>Lawi Otieno</h1></a></label>
+        <label class="logo" for=""><a href="index.html"><h1>Lawi Porfolio</h1></a></label>
         <ul>
             <li><a class="navterxt" href="#home">Home</a></li>
             <li><a class="navterxt" href="#projects">Projects</a></li>
             <li><a class="navterxt" href="#about-me">About Me</a></li>
+            <li><a class="navterxt" href="#contact-me">Contact Me</a></li>
         </ul>
     </nav>
 
@@ -30,13 +32,19 @@
         <h2>My Profile</h2>
         <div class="profile">
             <div class="profText">
-                <h3>Lawrence</h3>
-                <h3>Otieno</h3>
-                <p>Freelance Fullstack Developer & Product Designer based in NAirobi, Kenya.</p>
-                <button type="button" class="btn btn-success">Hire Me</button>
+                <h3 id="mName">Lawrence</h3>
+                <h3 id="mName">Otieno</h3>
+                <p id="mAbout">Freelance Fullstack Developer & Product Designer based in NAirobi, Kenya.</p>
+                <button type="button" class="btn btn-success"><a href="https://github.com/LawiOtieno">Hire Me</a></button>
             </div>
             <div class="my-photo">
                 <img src="./Assets/Lawi.jpg" alt="Lawrence photo">
+            </div>
+            <div class="sMedia">
+                <a href="#home"><i class="fab fa-facebook-square"></i></a> <!-- Font Awesome -->
+                <a href="#services"><i class="fab fa-twitter-square"></i></a> <!-- Font Awesome -->
+                <a href="#clients"><i class="fab fa-linkedin"></i></a> <!-- Font Awesome -->
+                <a href="#contact"><i class="fab fa-pinterest-square"></i></a> <!-- Font Awesome -->
             </div>
         </div>
     </section>
@@ -58,10 +66,35 @@
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td><a href="">Project 1</a></td>
+                    <td><a href="https://github.com/LawiOtieno/Lawi_Favourite_Band">Lawi Favourite Band</a></td>
+                    <td>This website project showcase my favourite band</td>
+                    <td>HTML & CSS</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td><a href="https://github.com/LawiOtieno/Anitas_Kitchen">Anita's Kitchen</a></td>
+                    <td>This website project showing menu of diffent foods and prices offered in Anita's Restaurant</td>
+                    <td>HTML & CSS</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td><a href="https://github.com/JAMAL-MOHAMED-JALDESA-2893/Find-Fundi">Find Fundi</a></td>
+                    <td>This is a project collaboration in which we developed website to help people get phone axperts easily</td>
+                    <td>HTML, CSS & JavaScript</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td><a href="https://github.com/LawiOtieno/cookie-recipe">Cookie Recipe</a></td>
+                    <td>This website project shows diffent cookie recipes</td>
+                    <td>HTML</td>
+                  </tr>
+                  <!-- <tr>
+                    <th scope="row">2</th>
+                    <td><a href="###">###</a></td>
                     <td>###</td>
                     <td>HTML & CSS</td>
                   </tr>
+                  -->
                 </tbody>
               </table>
         </div>
@@ -71,6 +104,63 @@
     <!--About Me Section-->
     <section id="about-me">
         <h2>About Me</h2>
+        <div class="codeInt">
+            <div class="border border-info" id="borderA"> <!-- Boostrap Styling used -->
+                <h4>My Background</h4>
+                <h6>Education</h6>
+                <p><strong>Primary:</strong> I went to Bar Odar Primary School, where I scored <strong>316 marks in K.C.P.E.</strong></p>
+                <p><strong>Secondary:</strong> I went to Sega Township Mixe School, where I scored <strong>A- in K.C.S.E.</strong></p>
+                <p><strong>University:</strong> I went to University of Nairobi, <strong>studied Applied Mathematics</strong>.</p>
+                <h6>Job Experience</h6>
+                <p><strong>2020:</strong> Worked as a Freelencer on FIVERR.COM, offering drop-services.</p>
+                <p><strong>September, 2019:</strong> Worked as an Enumerator in the 2019 Population and Census.</p>
+                <p><strong>August, 2017:</strong> Worked as a polling clerk in the 2017 General Elections.</p>
+            </div>
+            <div>
+                <div class="border border-info" id="borderA"> <!-- Boostrap Styling used -->
+                    <h4>Reasons For Programming</h4>
+                <p>I decided to take a class in programming due to the following reasons:</p>
+                <ul>
+                    <li>To enable have a diverse career opportunities and flexibility.</li>
+                    <li>To enhanced my problem solving skills.</li>
+                    <li>To advance my innovative capability.</li>
+                </ul>
+                </div>
+                <div class="border border-info" id="borderA"> <!-- Boostrap Styling used -->
+                    <h4>Interests/Hobbies/Skills</h4>
+                <ol>
+                    <li>Programming & Coding</li>
+                    <li>Playing Chess</li>
+                    <li>Reading</li>
+                    <li>Digital Marketing</li>
+                    <li>Sinnging and Worshipping</li>
+                </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me Section-->
+    <section id="contact-me">
+        <h2>Contact Me</h2>
+        <div class="contactLawi">
+            <table class="table">
+                <tbody>
+                  <tr>
+                    <td>Phone Number:</td>
+                    <td>+254708581688</td>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td>lawifirst@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>Website:</td>
+                    <td>www.lawifirst.com</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
     </section>
     </div>
     <footer>

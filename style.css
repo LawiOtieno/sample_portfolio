@@ -1,9 +1,13 @@
 .styleCommon{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 a{
     text-decoration: none;
+    color: rgb(251, 255, 0);
+}
+a:hover{
+    color: hotpink;
 }
 nav{
     background-color: #546064;
@@ -12,7 +16,7 @@ nav{
     position: fixed;
 }
 .logo{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Calistoga', cursive;
     padding-left: 30px;
 }
@@ -34,6 +38,7 @@ nav ul li a{
 }
 .sec_one{
     padding-top: 55px;
+    padding-bottom: 50px;
 }
 h2{
     font-family: 'Calistoga', cursive;
@@ -41,7 +46,7 @@ h2{
     background-color: #31b0d6;
     border-radius: 30px;
 }
-.profile{
+.profile, .codeInt{
     display: flex;
 }
 .profText{
@@ -49,12 +54,41 @@ h2{
     width: 50vw;
     padding-top: 50px;
 }
+#mName{
+    font-size: 300%;
+}
+#mAbout{
+    font-size: 150%;
+}
 .my-photo{
     text-align: center;
 }
 .my-photo img{
     border-radius: 50%;
     height: 50vh;
+}
+.sMedia{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: 200%;
+}
+.sMedia a{
+    color: blue;
+}
+.sMedia a :hover{
+    color: hotpink;
+}
+h6{
+    color: blue;
+}
+#borderA{
+    margin: 5px;
+    padding: 10px;
+}
+.contactLawi{
+    margin: 90px;
 }
 footer{
     background-color: #546064;
